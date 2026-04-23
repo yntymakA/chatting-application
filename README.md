@@ -129,3 +129,6 @@ WebSocket server events:
 - RabbitMQ uses the durable `chat.messages` topic exchange and `room.<room_id>` routing keys.
 - The connection service consumes from `ws-delivery-<instance_id>` queues for scale-friendly fan-out.
 - Uploads are limited to 10MB and validated against an allowlist of MIME types.
+
+
+app flow descripbed in diagram in the root of the project 
